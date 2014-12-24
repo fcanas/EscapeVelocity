@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73F2D951A4B5CD30025CB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F2D941A4B5CD30025CB5C /* AppDelegate.swift */; };
+		E73F2D971A4B5CD30025CB5C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E73F2D961A4B5CD30025CB5C /* GameScene.sks */; };
+		E73F2D991A4B5CD30025CB5C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F2D981A4B5CD30025CB5C /* GameScene.swift */; };
+		E73F2D9B1A4B5CD30025CB5C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F2D9A1A4B5CD30025CB5C /* GameViewController.swift */; };
+		E73F2D9E1A4B5CD30025CB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73F2D9C1A4B5CD30025CB5C /* Main.storyboard */; };
+		E73F2DA01A4B5CD30025CB5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73F2D9F1A4B5CD30025CB5C /* Images.xcassets */; };
+		E73F2DA31A4B5CD30025CB5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73F2DA11A4B5CD30025CB5C /* LaunchScreen.xib */; };
+		E73F2DAF1A4B5CD30025CB5C /* EscapeVelocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F2DAE1A4B5CD30025CB5C /* EscapeVelocityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73F2DA91A4B5CD30025CB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73F2D871A4B5CD30025CB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73F2D8E1A4B5CD30025CB5C;
+			remoteInfo = EscapeVelocity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73F2D8F1A4B5CD30025CB5C /* EscapeVelocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapeVelocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73F2D931A4B5CD30025CB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73F2D941A4B5CD30025CB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73F2D961A4B5CD30025CB5C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E73F2D981A4B5CD30025CB5C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E73F2D9A1A4B5CD30025CB5C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E73F2D9D1A4B5CD30025CB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73F2D9F1A4B5CD30025CB5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E73F2DA21A4B5CD30025CB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E73F2DA81A4B5CD30025CB5C /* EscapeVelocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeVelocityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73F2DAD1A4B5CD30025CB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73F2DAE1A4B5CD30025CB5C /* EscapeVelocityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeVelocityTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73F2D8C1A4B5CD30025CB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73F2DA51A4B5CD30025CB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73F2D861A4B5CD30025CB5C = {
+			isa = PBXGroup;
+			children = (
+				E73F2D911A4B5CD30025CB5C /* EscapeVelocity */,
+				E73F2DAB1A4B5CD30025CB5C /* EscapeVelocityTests */,
+				E73F2D901A4B5CD30025CB5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73F2D901A4B5CD30025CB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73F2D8F1A4B5CD30025CB5C /* EscapeVelocity.app */,
+				E73F2DA81A4B5CD30025CB5C /* EscapeVelocityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73F2D911A4B5CD30025CB5C /* EscapeVelocity */ = {
+			isa = PBXGroup;
+			children = (
+				E73F2D941A4B5CD30025CB5C /* AppDelegate.swift */,
+				E73F2D961A4B5CD30025CB5C /* GameScene.sks */,
+				E73F2D981A4B5CD30025CB5C /* GameScene.swift */,
+				E73F2D9A1A4B5CD30025CB5C /* GameViewController.swift */,
+				E73F2D9C1A4B5CD30025CB5C /* Main.storyboard */,
+				E73F2D9F1A4B5CD30025CB5C /* Images.xcassets */,
+				E73F2DA11A4B5CD30025CB5C /* LaunchScreen.xib */,
+				E73F2D921A4B5CD30025CB5C /* Supporting Files */,
+			);
+			path = EscapeVelocity;
+			sourceTree = "<group>";
+		};
+		E73F2D921A4B5CD30025CB5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73F2D931A4B5CD30025CB5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73F2DAB1A4B5CD30025CB5C /* EscapeVelocityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73F2DAE1A4B5CD30025CB5C /* EscapeVelocityTests.swift */,
+				E73F2DAC1A4B5CD30025CB5C /* Supporting Files */,
+			);
+			path = EscapeVelocityTests;
+			sourceTree = "<group>";
+		};
+		E73F2DAC1A4B5CD30025CB5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73F2DAD1A4B5CD30025CB5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73F2D8E1A4B5CD30025CB5C /* EscapeVelocity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73F2DB21A4B5CD30025CB5C /* Build configuration list for PBXNativeTarget "EscapeVelocity" */;
+			buildPhases = (
+				E73F2D8B1A4B5CD30025CB5C /* Sources */,
+				E73F2D8C1A4B5CD30025CB5C /* Frameworks */,
+				E73F2D8D1A4B5CD30025CB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EscapeVelocity;
+			productName = EscapeVelocity;
+			productReference = E73F2D8F1A4B5CD30025CB5C /* EscapeVelocity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73F2DA71A4B5CD30025CB5C /* EscapeVelocityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73F2DB51A4B5CD30025CB5C /* Build configuration list for PBXNativeTarget "EscapeVelocityTests" */;
+			buildPhases = (
+				E73F2DA41A4B5CD30025CB5C /* Sources */,
+				E73F2DA51A4B5CD30025CB5C /* Frameworks */,
+				E73F2DA61A4B5CD30025CB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73F2DAA1A4B5CD30025CB5C /* PBXTargetDependency */,
+			);
+			name = EscapeVelocityTests;
+			productName = EscapeVelocityTests;
+			productReference = E73F2DA81A4B5CD30025CB5C /* EscapeVelocityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73F2D871A4B5CD30025CB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Fabian Canas";
+				TargetAttributes = {
+					E73F2D8E1A4B5CD30025CB5C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E73F2DA71A4B5CD30025CB5C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E73F2D8E1A4B5CD30025CB5C;
+					};
+				};
+			};
+			buildConfigurationList = E73F2D8A1A4B5CD30025CB5C /* Build configuration list for PBXProject "EscapeVelocity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73F2D861A4B5CD30025CB5C;
+			productRefGroup = E73F2D901A4B5CD30025CB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73F2D8E1A4B5CD30025CB5C /* EscapeVelocity */,
+				E73F2DA71A4B5CD30025CB5C /* EscapeVelocityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73F2D8D1A4B5CD30025CB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73F2DA31A4B5CD30025CB5C /* LaunchScreen.xib in Resources */,
+				E73F2DA01A4B5CD30025CB5C /* Images.xcassets in Resources */,
+				E73F2D971A4B5CD30025CB5C /* GameScene.sks in Resources */,
+				E73F2D9E1A4B5CD30025CB5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73F2DA61A4B5CD30025CB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73F2D8B1A4B5CD30025CB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73F2D991A4B5CD30025CB5C /* GameScene.swift in Sources */,
+				E73F2D9B1A4B5CD30025CB5C /* GameViewController.swift in Sources */,
+				E73F2D951A4B5CD30025CB5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73F2DA41A4B5CD30025CB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73F2DAF1A4B5CD30025CB5C /* EscapeVelocityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73F2DAA1A4B5CD30025CB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73F2D8E1A4B5CD30025CB5C /* EscapeVelocity */;
+			targetProxy = E73F2DA91A4B5CD30025CB5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73F2D9C1A4B5CD30025CB5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73F2D9D1A4B5CD30025CB5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73F2DA11A4B5CD30025CB5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73F2DA21A4B5CD30025CB5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73F2DB01A4B5CD30025CB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73F2DB11A4B5CD30025CB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73F2DB31A4B5CD30025CB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EscapeVelocity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E73F2DB41A4B5CD30025CB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EscapeVelocity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E73F2DB61A4B5CD30025CB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EscapeVelocityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscapeVelocity.app/EscapeVelocity";
+			};
+			name = Debug;
+		};
+		E73F2DB71A4B5CD30025CB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EscapeVelocityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscapeVelocity.app/EscapeVelocity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73F2D8A1A4B5CD30025CB5C /* Build configuration list for PBXProject "EscapeVelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73F2DB01A4B5CD30025CB5C /* Debug */,
+				E73F2DB11A4B5CD30025CB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73F2DB21A4B5CD30025CB5C /* Build configuration list for PBXNativeTarget "EscapeVelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73F2DB31A4B5CD30025CB5C /* Debug */,
+				E73F2DB41A4B5CD30025CB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73F2DB51A4B5CD30025CB5C /* Build configuration list for PBXNativeTarget "EscapeVelocityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73F2DB61A4B5CD30025CB5C /* Debug */,
+				E73F2DB71A4B5CD30025CB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73F2D871A4B5CD30025CB5C /* Project object */;
+}
